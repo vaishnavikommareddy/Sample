@@ -20,7 +20,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     NSLog(@"Sample Application");
-    NSLog(@"merge");
+    NSLog(@"merging");
 }
 
 - (void)didReceiveMemoryWarning

@@ -21,6 +21,8 @@
 		490C48A317A917FB008FA58E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490C488517A917FA008FA58E /* UIKit.framework */; };
 		490C48AB17A917FB008FA58E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 490C48A917A917FB008FA58E /* InfoPlist.strings */; };
 		490C48AD17A917FC008FA58E /* sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C48AC17A917FC008FA58E /* sampleTests.m */; };
+		49750B60195AEC2D00F4CD93 /* sampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49750B5E195AEC2D00F4CD93 /* sampleViewController.m */; };
+		49750B61195AEC2D00F4CD93 /* sampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49750B5F195AEC2D00F4CD93 /* sampleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		490C48A817A917FB008FA58E /* sampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sampleTests-Info.plist"; sourceTree = "<group>"; };
 		490C48AA17A917FB008FA58E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		490C48AC17A917FC008FA58E /* sampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sampleTests.m; sourceTree = "<group>"; };
+		49750B5D195AEC2D00F4CD93 /* sampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sampleViewController.h; sourceTree = "<group>"; };
+		49750B5E195AEC2D00F4CD93 /* sampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sampleViewController.m; sourceTree = "<group>"; };
+		49750B5F195AEC2D00F4CD93 /* sampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = sampleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 				490C489317A917FB008FA58E /* Main.storyboard */,
 				490C489617A917FB008FA58E /* ViewController.h */,
 				490C489717A917FB008FA58E /* ViewController.m */,
+				49750B5D195AEC2D00F4CD93 /* sampleViewController.h */,
+				49750B5E195AEC2D00F4CD93 /* sampleViewController.m */,
+				49750B5F195AEC2D00F4CD93 /* sampleViewController.xib */,
 				490C489917A917FB008FA58E /* Images.xcassets */,
 				490C488817A917FA008FA58E /* Supporting Files */,
 			);
@@ -230,6 +238,7 @@
 			files = (
 				490C489A17A917FB008FA58E /* Images.xcassets in Resources */,
 				490C488C17A917FA008FA58E /* InfoPlist.strings in Resources */,
+				49750B61195AEC2D00F4CD93 /* sampleViewController.xib in Resources */,
 				490C489517A917FB008FA58E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +260,7 @@
 			files = (
 				490C489817A917FB008FA58E /* ViewController.m in Sources */,
 				490C489217A917FA008FA58E /* AppDelegate.m in Sources */,
+				49750B60195AEC2D00F4CD93 /* sampleViewController.m in Sources */,
 				490C488E17A917FA008FA58E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +464,7 @@
 				490C48B217A917FC008FA58E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		490C48B317A917FC008FA58E /* Build configuration list for PBXNativeTarget "sampleTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +473,7 @@
 				490C48B517A917FC008FA58E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

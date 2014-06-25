@@ -21,6 +21,8 @@
     
     NSLog(@"Sample Application");
     NSLog(@"merging---");
+    
+    NSLog(@"pull the changes");
 }
 
 - (void)didReceiveMemoryWarning

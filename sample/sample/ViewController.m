@@ -21,6 +21,8 @@
     
     NSLog(@"Sample Application");
     NSLog(@"merging---");
+    
+    NSLog(@"showing conflicts");
     NSLog(@"conflicts shown");
 }
 

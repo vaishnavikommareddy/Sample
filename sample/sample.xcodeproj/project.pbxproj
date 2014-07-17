@@ -23,6 +23,7 @@
 		490C48AD17A917FC008FA58E /* sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C48AC17A917FC008FA58E /* sampleTests.m */; };
 		49750B60195AEC2D00F4CD93 /* sampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49750B5E195AEC2D00F4CD93 /* sampleViewController.m */; };
 		49750B61195AEC2D00F4CD93 /* sampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49750B5F195AEC2D00F4CD93 /* sampleViewController.xib */; };
+		49ED4A6A196D76DE00DA06EC /* NSString+stringWithURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ED4A69196D76DE00DA06EC /* NSString+stringWithURLEncoding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		49750B5D195AEC2D00F4CD93 /* sampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sampleViewController.h; sourceTree = "<group>"; };
 		49750B5E195AEC2D00F4CD93 /* sampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sampleViewController.m; sourceTree = "<group>"; };
 		49750B5F195AEC2D00F4CD93 /* sampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = sampleViewController.xib; sourceTree = "<group>"; };
+		49ED4A68196D76DE00DA06EC /* NSString+stringWithURLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+stringWithURLEncoding.h"; sourceTree = "<group>"; };
+		49ED4A69196D76DE00DA06EC /* NSString+stringWithURLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+stringWithURLEncoding.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 		490C488717A917FA008FA58E /* sample */ = {
 			isa = PBXGroup;
 			children = (
+				49ED4A68196D76DE00DA06EC /* NSString+stringWithURLEncoding.h */,
+				49ED4A69196D76DE00DA06EC /* NSString+stringWithURLEncoding.m */,
 				490C489017A917FA008FA58E /* AppDelegate.h */,
 				490C489117A917FA008FA58E /* AppDelegate.m */,
 				490C489317A917FB008FA58E /* Main.storyboard */,
@@ -262,6 +267,7 @@
 				490C489217A917FA008FA58E /* AppDelegate.m in Sources */,
 				49750B60195AEC2D00F4CD93 /* sampleViewController.m in Sources */,
 				490C488E17A917FA008FA58E /* main.m in Sources */,
+				49ED4A6A196D76DE00DA06EC /* NSString+stringWithURLEncoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

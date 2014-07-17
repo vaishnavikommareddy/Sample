@@ -12,9 +12,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+   // [self redirectNSLogToDocumentFolder];
+    
+    NSLog(@"didFinishLaunchingWithOptions");
+    NSLog(@"application didFinishLaunchingWithOptions:");
     // Override point for customization after application launch.
     return YES;
 }
+- (void)redirectNSLogToDocumentFolder{
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);
+    
+	NSString *documentsDirectory = [paths objectAtIndex:0];
+    
+	NSString *fileName =[NSString stringWithFormat:@"appdelegate%@.log",[NSDate date]];
+    
+	NSString *logFilePath = [documentsDirectory stringByAppendingPathComponent:fileName];
+    
+	freopen([logFilePath cStringUsingEncoding:NSASCIIStringEncoding],"a+",stderr);
+}
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController {
+    NSMutableData *receivedData;
+}
+//@property(nonatomic,assign) NSMutableData *receivedData;
 @end
